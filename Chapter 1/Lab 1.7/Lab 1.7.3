@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int n1,n2,n3,n4;
+	cin>>n1;
+	cin>>n2;
+	cin>>n3;
+	cin>>n4;
+	if( (n1<=255&&n1>=1)&&(n2<=255&&n2>=1)&&(n3<=255&&n3>=1)&&(n4<=255&&n4>=1))
+    cout << n1<<"."<< n2<<"."<< n3<<"."<< n4;
+	return 0;
+}
