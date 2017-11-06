@@ -25,6 +25,6 @@ int main(void) {
 		cout << val << " is a bitwise palindrome" << endl;
 	else
 		cout << val << " is not a bitwise palindrome" << endl;
-	cin >> val;
+	cin >> val;
 	return 0;
-}
+}
