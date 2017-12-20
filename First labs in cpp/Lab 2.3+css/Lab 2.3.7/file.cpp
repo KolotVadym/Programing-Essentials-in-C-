@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int num;
+	cin>>num;
+	if(num>0)
+	{
+	if(num==1||num==2)
+	cout<<1;
+	else
+	{
+		long n0=1,n1=1;
+		int i=1;
+		for(;i<num-1;i++)
+		{
+			if(i%2)
+			n1=n0+n1;
+			else
+			n0=n0+n1;
+		}
+		if(!(i%2))
+		cout<<n1;
+		else cout<<n0;
+	}
+	}
+	return 0;
+}
